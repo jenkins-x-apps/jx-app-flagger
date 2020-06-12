@@ -1,0 +1,4 @@
+dependencies:
+- name: flagger
+  repository: https://flagger.app
+  version: 0.27.0

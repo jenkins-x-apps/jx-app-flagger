@@ -1,0 +1,4 @@
+apiVersion: v1
+description: The Flagger App for Jenkins X
+name: jx-app-flagger
+version: 0.1.0-SNAPSHOT
