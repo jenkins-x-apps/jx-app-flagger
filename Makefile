@@ -11,6 +11,7 @@ init:
 
 setup: init
 	helm repo add jenkinsxio http://chartmuseum.jenkins-x.io
+	helm repo add flagger https://flagger.app
 
 build: clean setup
 	rm -rf requirements.lock
