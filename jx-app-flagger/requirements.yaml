@@ -1,7 +1,9 @@
 dependencies:
 - name: flagger
-  repository: https://flagger.app
+  repository: "@flagger"
+  alias: flaggerrepo
   version: 0.27.0
 - name: grafana
-  repository: https://flagger.app
+  repository: "@flagger"
+  alias: flaggerrepo
   version: 1.4.0
